@@ -1,0 +1,35 @@
+.main {
+  height: calc(100vh - 54px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mainText {
+  margin-top: -10px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 4rem;
+  font-style: italic;
+  padding: 0px 20px;
+  line-height: 6.5rem;
+}
+
+@media (max-width: 768px) {
+  .mainText {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 475px) {
+  .mainText {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .mainText {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}

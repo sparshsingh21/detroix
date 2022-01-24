@@ -1,0 +1,23 @@
+.container {
+  color: #cac0c0;
+  background-color: #4242ae;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.3rem;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo {
+  margin: 0px 15px;
+}
+.anchor {
+  color: #ffffff;
+  text-decoration: unset;
+  border-bottom: 1px solid;
+}
+.text {
+  line-height: 2.2rem;
+}

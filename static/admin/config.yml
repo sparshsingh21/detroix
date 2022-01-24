@@ -1,0 +1,45 @@
+backend:
+  name: github
+  repo: kcecell/ecell-website
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: members
+    label: Members
+    folder: data/members
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Github", name: "gitHub", widget: "string" }
+      - { label: "LinkedIn", name: "linkedIn", widget: "string" }
+      - { label: "Category", name: "category", widget: "string" }
+
+  - name: mentors
+    label: Mentors
+    folder: data/mentors
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Order No.", name: "order", widget: "number" }
+
+  - name: events
+    label: Events
+    folder: data/events
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

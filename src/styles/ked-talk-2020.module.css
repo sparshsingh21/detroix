@@ -1,0 +1,38 @@
+p {
+  margin-bottom: 20px;
+}
+.head1,
+.head2 {
+  font-weight: 500;
+}
+.head1 {
+  font-style: italic;
+  font-size: 2.5rem;
+}
+.head2 {
+  font-size: 2rem;
+}
+.video {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 475px) {
+  .video {
+    width: 95%;
+    height: 200px;
+  }
+  .head1 {
+    font-size: 1.8rem;
+  }
+  .head2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

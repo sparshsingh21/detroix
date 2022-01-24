@@ -1,0 +1,37 @@
+.eventImage {
+  height: 300px;
+  max-width: 70vw;
+  border-radius: 200px;
+}
+.header {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.dateContainer {
+  font-style: italic;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.content {
+  margin: 0 auto;
+  width: 90%;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  /* text-align: justify; */
+  padding: 1rem;
+  justify-content: center;
+}
+
+@media (max-width: 475px) {
+  .eventImage {
+    height: 30vh;
+    max-width: 80vw;
+  }
+  .header {
+    font-size: 1.5rem;
+  }
+  .content {
+    text-align: center;
+  }
+}
