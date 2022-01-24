@@ -1,1 +1,1 @@
-## Ecell Website made with Gatsbyjs.
+## Detroix Website made using Gatsby.js
